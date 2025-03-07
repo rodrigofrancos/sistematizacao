@@ -1,0 +1,6 @@
+## **3. Dependências (`requirements.txt`)**
+
+```
+flask
+pytest
+```
