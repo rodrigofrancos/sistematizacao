@@ -1,0 +1,16 @@
+## **6. Como Rodar Localmente**
+
+```sh
+# Clonar o repositório
+git clone https://github.com/seu-usuario/ceub-devops.git
+cd sistematizacao
+
+# Instalar dependências
+pip install -r requirements.txt
+
+# Rodar a aplicação
+python app.py
+
+# Executar testes
+pytest
+```
