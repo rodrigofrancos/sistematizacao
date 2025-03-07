@@ -14,3 +14,14 @@ python app.py
 # Executar testes
 pytest
 ```
+
+
+
+## **7. Como Rodar com Docker**
+
+```sh
+# Construir a imagem
+docker build -t flask-app .
+
+# Rodar o container
+docker run -p 5000:5000 flask-app
